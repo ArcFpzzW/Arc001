@@ -1,0 +1,17 @@
+git  
+	作为指令前缀 驱动 git 帮忙处理相应指令;
+git init 
+	初始化git;
+
+设置你的github属于谁;
+
+git config --global user.name "你的git名称"
+git config --global user.email "你的git验证邮箱"
+
+报错 : please tell me who you are; 
+
+git add 表示把工作去文件放入暂存区中；  什么都没有发生表示放入成功了；
+ git status  插卡暂存区状态；
+git commit 表示把暂存区内容放进仓库中；
+          git commit -m “第一次提交指令大全放入本地仓库中”
+当前版本的唯一标识；
